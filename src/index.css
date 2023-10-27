@@ -1,0 +1,216 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rtl-tabs .ant-tabs-bar{
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.tabsStyles .ant-tabs-tab-btn{ 
+ 
+  font-size: 10px;
+  font-weight: 500;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+  
+}
+.patientTabs .ant-tabs-tab-btn{ 
+ 
+  font-size: 12px;
+  font-weight: 500;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+  
+}
+ .ant-tabs-tab-btn :hover{ 
+ color: black;
+  /* margin-right: 20px;
+  margin-left: 20px; */
+  
+}
+.ant-tabs-nav
+{
+  text-decoration: none;
+}
+.patientTabs  .ant-tabs-nav-wrap{
+  display: flex;
+  justify-content: flex-end !important;
+  margin-right: 10px;
+}
+.ant-tabs .ant-tabs-ink-bar{
+  background: #FFB050;
+}
+ .patientTabs .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  
+  color: #464D59;
+  font-size: 12px;
+
+} 
+.tabsStyles .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  
+  color: #464D59;
+  font-size: 10px;
+
+} 
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active >div>div >:nth-child(1)
+{
+  background-color: #5ECCB9;
+}
+
+.tabsStyles >.ant-tabs .ant-tabs-ink-bar {
+  background: #5ECCB9;
+  
+}
+.tabsStyles  .ant-tabs-nav-wrap{
+  display: flex;
+  justify-content: center !important;
+}
+
+.fc-scrollgrid-sync-inner{
+  color:black
+}
+.fc-toolbar-chunk
+{
+  color:black
+}
+.fc-timegrid-slot-label-cushion
+{
+  color:black
+}
+.fc .fc-daygrid-day.fc-day-today
+{
+  background-color: rgba(94,204,185,.4)!important;
+  
+}
+.fc-button-group > .fc-button-primary 
+{
+  background-color: rgba(94,204,185,1)!important;
+  border: none;
+}
+.fc-theme-standard .fc-list-day-cushion
+{
+  color: black;
+}
+.fc .fc-list-table td {
+  padding: 8px 14px;
+  color: black;
+}
+.fc-event-main 
+{
+  background-color:rgba(94,204,185,1) ;
+}
+
+.fc-event-main :root
+{
+  border-color: white;
+}
+
+
+.fc-daygrid-event-dot {
+
+  border-color:rgba(94,204,185,1) !important ;
+}
+.fc .fc-list-event-dot
+{
+  border-color:rgba(94,204,185,1) !important ;
+}
+
+.fc-timegrid-slot-lane
+{
+  background-color: white !important;
+}
+
+ .ant-picker-calendar-date-today
+{
+  background-color:rgba(94,204,185,1) !important ;
+}
+.ant-picker-calendar-date-content{
+  border-color:rgba(94,204,185,1) !important ;
+}
+
+.ant-steps-item-icon {
+  display: none !important;
+}
+.ant-steps-item-wait::after
+{
+  display: none !important;
+}
+ .ant-steps-item-active::after
+{
+  display: none !important;
+}
+.ant-steps-item-finish::after
+{
+  display: none !important;
+}
+.ant-steps-item > .ant-steps-item-finish::before{
+  border-bottom: 2;
+  background-color: yellow !important;
+}
+
+.ant-steps-item-active::before
+{
+   background-color: #EBAB4B !important;
+}
+
+.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title
+{
+  color: #EBAB4B !important ;
+}
+
+/* .popup-container{
+  position: relative;
+  z-index: 1000;
+  background: white;
+  border: 2px solid black;
+  padding: 4px;
+  min-width: 400px;
+  border-radius: 10px;
+}
+
+.popup-container::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+} */
+
+.popup-content {
+  margin: auto;
+  /* background: rgb(255, 255, 255); */
+  padding: 5px;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role='tooltip'].popup-content {
+  /* width: 200px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  background: rgba(65, 65, 65, 0.5);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}

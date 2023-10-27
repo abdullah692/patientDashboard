@@ -1,0 +1,8 @@
+
+.patient-details div {
+    margin-bottom: 0 !important;
+}
+
+.ant-form-item-label {
+    display: block;
+  }

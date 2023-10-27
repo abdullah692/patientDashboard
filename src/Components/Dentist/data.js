@@ -1,0 +1,31 @@
+export const daysOfWeek=[
+    {
+        id:1,
+        day:'sunday'
+    },
+    {
+        id:2,
+        day:'monday'
+    },
+    {
+        id:3,
+        day:'tuesday'
+    },
+    {
+        id:4,
+        day:'wednesday'
+    },
+    {
+        id:5,
+        day:'thursday'
+    },
+    {
+        id:6,
+        day:'friday'
+    },
+    {
+        id:7,
+        day:'saturday'
+    },
+   
+]

@@ -1,0 +1,143 @@
+.App {
+  max-width: 1600px;
+  margin: auto;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(230, 225, 225);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #abdad3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cbf2ec;
+}
+/* 
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} */
+
+.ant-picker-ok .ant-btn-sm {
+  background-color: rgb(88, 88, 255) !important;
+}
+
+.ant-picker-ok .ant-btn-sm:hover {
+  background-color: rgb(56, 56, 250) !important;
+}
+
+.ant-table-filter-dropdown-btns:nth-child(1) {
+  background-color: white !important;
+}
+.ant-btn-sm {
+  background-color: rgb(88, 88, 255);
+  color: white;
+}
+
+/* Add Appointment */
+
+.ant-form-item-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Ant Design Modal */
+
+.ant-switch[aria-checked='false'] {
+  background-color: rgb(146, 146, 145);
+}
+
+.ant-upload-list-item-container {
+  display: none;
+}
+
+/* Calender */
+.ant-radio-button-wrapper-checked {
+  color: rgba(94, 204, 185, 1) !important;
+  border: 1px solid rgba(94, 204, 185, 1) !important;
+}
+
+/* AutoComplete */
+
+/* .my-search-icon {
+  font-size: 16px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 8px;
+}
+
+.ant-input-group-addon {
+  display: none !important;
+} */
+
+/* scheduler dr name button */
+.fc-media-screen > div > .fc-toolbar-chunk:nth-child(2) {
+  width: 100%;
+}
+
+.fc-customTitle-button {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(94 204 185) !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.provider-dob + .ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+/* Full Calender Group Provider Color */
+.custom-title-orthodontist {
+  color: brown;
+}
+.custom-title-hygienist {
+  color: navy;
+}
+.custom-title-dentist {
+  color: darkmagenta;
+}
+
+.fc-event-main {
+  padding: 0 !important;
+  border-radius: 8px;
+  /* background-color: transparent !important; */
+}
+.fc-event {
+  background-color: transparent !important;
+  border-radius: 8px;
+  border: none !important;
+}
+table {
+  border-radius: 0.5rem;
+}
